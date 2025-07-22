@@ -1,0 +1,214 @@
+ .text-wrapper{
+    text-align: center;
+    padding: 5rem;
+    background-color: lightblue;
+    color: white;
+}
+body{
+    background-color: white;
+}
+.text-wrapper h1{
+    font-size: xxx-large;
+    padding: 1rem;
+}
+.container .flex-container{
+    display: flex;
+    width: 90%;
+    gap: 2rem;
+    margin: 2rem auto;
+}
+.text{
+    width:55%;
+}
+h2{
+    font-size: xxx-large;
+    padding-bottom: 2rem;
+}
+.first-text{
+    font-size:large;
+    font-weight: lighter;
+    padding-bottom: 1.5rem;
+}
+.second-text{
+    font-size:14px;
+    padding-bottom: 1.5rem;
+}
+.feedback{
+    display: flex;
+    gap: 1rem;
+    text-align: center;
+    width: 100%;
+}
+.fb{
+    border-radius: 10px;
+    box-shadow: 0px 0.7px 1px  rgb(223, 214, 214); 
+    padding: 0.5rem 5rem;
+    width: 100%;
+    font-size:small;
+    transition: all 100ms ease-in-out;
+}
+.fb:hover{
+    transform: translateY(-5px);
+     box-shadow: 0px 4px 12px rgb(219, 211, 211);
+}
+.feedback header{
+    font-size: large;
+    font-weight: bolder;
+    color: lightblue;
+}
+img{
+    border-radius: 10px;
+    width: fit-content;
+    height:340px;
+    box-shadow: 0px 2px 8px  rgb(224, 220, 220);
+}
+.card-container .card-flex{
+    width:83%;
+    margin: 2rem auto;
+    display: flex;
+    gap: 1rem;
+    text-align: center;
+    height: 200px;
+}
+.mission{
+    box-shadow: 0px 2px 8px  rgb(224, 220, 220);
+    border-radius: 15px;
+}
+.vision{
+    box-shadow: 0px 2px 8px  rgb(224, 220, 220);
+    border-radius: 15px;
+}
+.blue i{
+    margin: 1rem;
+    color: white;
+    background-color: lightblue;
+    padding: 1rem;
+    font-size:xx-large;
+    border-radius: 50%;
+}
+.green i{
+    margin: 1rem;
+    color: white;
+    background-color: #198754;
+    padding: 1rem;
+    font-size:xx-large;
+    border-radius: 50%;
+}
+h3{
+    padding-bottom: 1rem;
+}
+.team{
+    text-align: center;
+    margin: 3rem;
+}
+.team h1{
+    padding-bottom: 1.5rem;
+}
+.team-card{
+    display: flex;
+    width:85%;
+    margin: 0 auto;
+}
+.name{
+    color: black;
+    font-weight: bolder;
+    font-size: large;
+}
+.title{
+    color: lightblue;
+}
+.role{
+    font-weight: lighter;
+}
+#member{
+    text-align: center;
+    transition: all 400mms ease-in-out;
+}
+#member:hover{
+    text-align: center;
+    transform: translateY(-5px);
+}
+.team-card img{
+    border: 3px solid white;
+    width:30%;
+    border-radius: 50%;
+    height: 35%;
+}
+.name, .title, .role{
+    padding: 0.3rem;
+}
+
+
+
+
+@media (max-width:700px) {
+    .container .flex-container{
+     flex-direction: column;
+    width: 90%;
+    margin: 1 auto; 
+}
+
+.text{
+    width: 90%;
+    margin: 0 auto;
+}
+ img{
+    width: 94%;
+    margin-left: 1.4rem;
+}
+.card-container .card-flex{
+    width: 78%;
+    margin-left: 4rem;
+    flex-direction: column;
+    height: fit-content;
+    padding-bottom: 2rem;
+}
+.mission{
+    padding: 0.5rem;
+}
+.vision{
+    padding: 0.5rem;
+}
+.team{
+    width: 100%;
+    margin-left: 4rem;
+}
+.team-card{
+    width: 100%;
+    margin-left: 3.5rem;
+    flex-direction: column;
+
+}
+#member{
+    margin: 2rem 0;
+}
+.team-card img{
+    /* border: 3px solid white; */
+    width:30%;
+    border-radius: 50%;
+    height: 8rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+.tm{
+    /* padding: 1rem; */
+}
+.name{
+    /* color: black;
+    font-weight: bolder;
+    font-size: large; */
+}
+.title{
+    /* color: lightblue; */
+}
+.role{
+    /* font-weight: lighter; */
+}
+.member{
+    /* width: 100%;
+    text-align: center;
+    padding-left: 12rem; */
+}
+}

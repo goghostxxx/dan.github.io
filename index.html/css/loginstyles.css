@@ -1,0 +1,140 @@
+form{
+    width: 20%;
+    background-color: #ffffff;
+    margin: 5rem auto;
+    box-shadow: 0px 2px 8px 2px black;
+    border-radius: 10px;
+}
+p, .userwrapper, h1{
+    text-align: center;
+}
+.logincard a{
+    text-align: center;
+}
+.userwrapper{
+color: #2f4155;
+font-size: 2rem;
+padding-bottom: 0.5rem;
+}
+.wrapper1{
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+.wrapper{
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+.email{
+    color: black;
+    padding: 0px;
+    text-align: left;
+}
+p{
+    color: #2f4155;
+    font-size: small;
+    padding: 0.3rem;
+}
+.span1{
+    background-color: #f6faf9;
+    border: 1px solid #f6faf9;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-right: 2px;
+    align-items: center;
+    justify-content: center;
+}
+.span2{
+    background-color: #f6faf9;
+    border: 1px solid #f6faf9;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-right: 2px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1px;
+}
+.span3:hover{
+    background-color: #6c757d;
+    color: white;
+}
+input{
+    padding-top: 4.5px;
+    padding-left: 10px;
+    border: 2px solid #f6faf9;
+}
+i{
+    padding-left: 5px;
+}
+.signinbtn{
+    border-color: #2f4155;
+    background-color: #2f4155;
+    width: 90%;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 1rem auto;
+    color: white;
+}
+.signinbtn:hover{
+    background-color: #111b27;
+    color:white;
+}
+.fyp{
+    margin: 1rem;
+}
+.fyp a{
+    color: #2f4155;
+}
+.fyp .fyp2:hover{
+   width:fit-content;
+   margin: 0 auto;
+    border-radius: 15px;
+    transform: translateY(-5px);
+}
+.fyp .fyp2{
+    transition: all 100ms
+    ease-in-out;
+}
+.fyp .fyp2 a:hover{
+    color:#2f4155;
+}
+.black{
+    color: black;
+}
+.red{
+    color: red;
+    transition: all 100ms ease-in-out;
+}
+.red:hover{
+    background-color: red;
+    color: white;
+    margin:0rem 2rem;
+    border-radius: 10px;
+    transform: translate(-5px);
+}
+.navy{
+   color: #2f4155;
+    transition: all 100ms ease-in-out;
+}
+.navy:hover{
+     background-color:#2f4155;
+    color: white;
+    margin: 0rem 2rem;
+    border-radius: 10px;
+    transform: translate(-5px);
+}
+.black2{
+    padding: 1.5rem;
+    color: black;
+}
+.black2 a{
+    color: #2f4155;
+    font-weight: bold;
+}
+.black2 a:hover{
+    color: #565a5f;
+}
+@media (max-width:700px) {
+    form{
+        width: fit-content;
+    }
+}

@@ -1,0 +1,173 @@
+.text-wrapper{
+    text-align: center;
+    padding: 5rem;
+    color: white;
+    background-color: lightblue;
+}
+.text-wrapper h1{
+    padding: 1rem;
+    font-size:xxx-large;
+}
+body{
+    background-color: white;
+}
+.cardflex .divflex{
+    display: flex;
+    margin: 2rem;
+    width: 80%;
+    margin: 2rem auto;
+}
+.divflex div{
+    box-shadow: 0px 0px 2px 1px rgba(219, 211, 211, 0.247);
+    padding: 3rem;
+    margin: 0rem 1rem;
+    border-radius: 15px;
+    width: 90%;
+    transition: all 200ms ease-in-out;
+}
+.divflex div:hover{
+    transform: translateY(-5px);
+}
+.divflex header{
+    font-weight: bold;
+    font-size: large;
+    margin-bottom: 1rem;
+}
+#paragraph{
+    font-weight: lighter;
+    margin-bottom: 1rem;
+}
+.divflex ul{
+    margin-bottom: 2rem;
+}
+.more a{
+    color: blue;
+    padding-left: 1rem;
+    transition: all 200ms ease-in-out;
+}
+.more a:hover{
+    background-color: blue;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 10px; 
+    transform: translate(-5px);
+}
+.bluecard{
+    background-color: blue;
+    border-radius: 50%;
+    padding: 1rem;
+    font-size: xx-large;
+    color: white;
+}
+.bluecard i{
+    margin-bottom: 2rem;
+}
+div .greencard{
+    background-color: green;
+    border-radius: 50%;
+    padding: 1rem 1.5rem;
+    font-size: xx-large;
+    color: white;
+}
+.greencard i{
+    margin-bottom: 2rem;
+}.orangecard{
+    background-color:#ffc107;
+    border-radius: 50%;
+    padding: 1rem;
+    font-size: xx-large;
+    color: white;
+}
+.orangecard i{
+    margin-bottom: 2rem;
+}
+.lightbluecard{
+    background-color: #0dcaf0;
+    border-radius: 50%;
+    padding: 1rem 1.3rem;
+    font-size: xx-large;
+    color: white;
+}
+.lightbluecard i{
+    margin-bottom: 2rem;
+}
+.redcard{
+    background-color: red;
+    border-radius: 50%;
+    padding: 1rem 1.2rem;
+    font-size: xx-large;
+    color: white;
+}
+.redcard i{
+    margin-bottom: 2rem;
+}
+.greycard{
+    background-color: grey;
+    border-radius: 50%;
+    padding: 1rem 1.2rem;
+    font-size: xx-large;
+    color: white;
+}
+.greycard i{
+    margin-bottom: 2rem;
+}
+.text-wrapper2{
+    text-align: center;
+}
+.info{
+    height: 250px;
+    background-color: #f8f9fa;
+}
+.info h1{
+    font-size: xx-large;
+    margin: 2rem;
+    padding-top: 3rem;
+}
+.info p{
+    margin-bottom: 1rem;
+    font-weight: lighter;
+    font-size: larger;
+}
+.reachout{
+    display: flex;   
+    gap: 0.5rem;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.reachout .contact-us{
+    background-color: #0d6efd;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 15px;
+    transition: all 200ms ease-in-out;
+}
+.reachout .contact-us:hover{
+    background-color: #0b5ed7;
+    transform: translateY(-5px);
+}
+.reachout .sut{
+    color: #0d6efd;
+    font-weight: bold;
+    transition: all 200ms ease-in-out;
+     padding: 1rem 2rem;
+}
+.reachout .sut:hover{
+    background-color:  #0d6efd;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 15px;
+    transform: translateY(-5px);
+}
+
+@media (max-width:700px) {
+    .cardflex .divflex{
+    flex-direction: column;
+    gap: 1rem;
+    width: 94%;
+    margin: 2rem;
+    }
+    .info{
+        height:300px;
+    }
+}

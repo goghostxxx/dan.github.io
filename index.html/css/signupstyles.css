@@ -1,0 +1,151 @@
+.signup-card{
+    margin: 8rem auto;
+    width: 38%;
+    background-color: white;
+    border-radius: 15px;
+    padding: 3rem;
+    box-shadow: 0px 0px 2px 1px rgba(219, 211, 211, 0.247);
+}
+section{
+    text-align: center;
+    padding: 1rem;
+}
+.first-section i{
+    color: #2f4155;
+    font-size: xxx-large;
+    margin: 1rem;
+}
+.first-section h1{
+    margin-bottom: 0.5rem;
+}
+input{
+    padding: 1rem;
+}
+.name-holder{
+    display: flex;
+    gap: 2rem;
+}
+.name-holder .input1{
+    border: 2px solid grey;
+    border-radius: 10px;
+    height: 3rem;
+    width: 12rem;
+    margin: 0rem auto;
+}
+#boxsize{
+    border: 2px solid grey;
+    width: 23rem;
+    height: 3rem;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+#passbox{
+    border: 2px solid grey;
+    width: 20.4rem;
+    height: 3rem;
+    margin: 0rem auto;
+}
+form p{
+    /* TRBL */
+    padding: 1rem 0 0.4rem 0;
+}
+.create-account{
+    margin: 1.5rem auto;
+    background-color: #2f4155;
+    width: 100%;
+    padding: 1.5rem 0rem;
+    border-radius: 10px;
+    text-align: center;
+    transition: all 200ms ease-in-out;
+}
+.create-account a{
+    color: white;
+    font-weight: bold;
+}
+.create-account:hover{
+    background-color: #565a5f;
+    transform: translateY(-5px);
+}
+.second-section p{
+    padding: 1rem
+}
+.red{
+    color: red;
+    transition: all 100ms ease-in-out;
+}
+.red:hover{
+    background-color: red;
+    color: white;
+    margin:0rem 2rem;
+    border-radius: 10px;
+    transform: translate(-5px);
+}
+.navy{
+   color: #2f4155;
+    transition: all 100ms ease-in-out;
+}
+.navy:hover{
+     background-color:#2f4155;
+    color: white;
+    margin: 0rem 2rem;
+    border-radius: 10px;
+    transform: translate(-5px);
+}
+.black a{
+    color: #2f4155;
+    font-weight: bold;
+}
+.black a:hover{
+    color: #565a5f;
+}
+.span1{
+    background-color: grey;
+    border: 1px solid grey;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    /* TRBL */
+    padding: 10px 10px 15px 0;
+    align-items: center;
+    justify-content: center;
+}
+.span1 i{
+    padding-left: 1rem;
+}
+.span2{
+    background-color: grey;
+    border: 1px solid grey;
+    /* TRBL */
+    padding: 10px 10px 15px 0px;
+}
+.span2 i{
+    padding-left: 0.5rem;
+}
+
+@media (max-width:700px) {
+    .signup-card{
+    width: 460px;
+    }
+    .first-section{
+        margin-left: 3.9rem;
+    }
+    .second-section{
+        margin-left: 1rem;
+    }
+    .name-holder .input1{
+        width: 10rem;
+    }
+    #boxsize{
+        width: 19rem;
+    }
+    #passbox{
+        width: 16rem;
+    }
+    .create-account{
+        margin: 1rem auto;
+        width: 100%;
+        padding: 1.5rem 0rem;
+        font-size: small;
+        text-align: center;
+    }
+}
